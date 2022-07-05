@@ -1,0 +1,74 @@
+:root {
+    --gray: #828282;
+    --darkGray: #181719;
+}
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+body{
+    background: var(--darkGray);
+    color: #ffffff;
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+/* Globales */
+.container{
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+h1{
+    font-size: 4.8rem;
+}
+h2{
+    font-size: 4rem;
+}
+img{
+    max-width: 100%;
+}
+p{
+    font-size: 1.4rem;
+}
+/* Utilities */
+.lora{
+    font-family: 'Lora', serif;
+    font-weight: 500;
+}
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+.crimson{
+    font-family: 'Montserrat', sans-serif;
+}
+.no-margin{
+    margin: 0;
+}
+.no-padding{
+    padding: 0;
+}
+.text-center{
+    text-align: center;
+}
+.bold{
+    font-weight: 700
+}
+main{
+    padding: 1.2rem;
+}
+.main-info-container h1{
+    font-size: 3.8rem;
+}
+.main-info-container p{
+    padding: 2.5rem 0;
+    line-height: 1.7rem;
+}
